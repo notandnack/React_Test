@@ -9,7 +9,7 @@
                 smartSpeed: 800,
                 dots: false,
                 nav: true,
-                navText: ['<img src="/template/images/arrow_left.png">', '<img src="/template/images/arrow_right.png">'],
+                navText: ['<img src="/template/images/arrow_left.png" />', '<img src="/template/images/arrow_right.png" />'],
                 navClass: ['owl-prev', 'owl-next'],
                 responsive: {
                     0: {
@@ -32,7 +32,7 @@
                         slideBy: 1
                     }
                 }
-            })
+            });
             $('.flashsale_slide').owlCarousel({
                 loop: false,
                 item: 1,
@@ -42,7 +42,7 @@
                 smartSpeed: 800,
                 dots: false,
                 nav: true,
-                navText: ['<img src="/template/images/arrow_left.png">', '<img src="/template/images/arrow_right.png">'],
+                navText: ['<img src="/template/images/arrow_left.png" />', '<img src="/template/images/arrow_right.png" />'],
                 navClass: ['owl-prev', 'owl-next'],
                 responsive: {
                     0: {
@@ -65,7 +65,7 @@
                         slideBy: 1
                     }
                 }
-            })
+            });
             $('.category_slide').owlCarousel({
                 loop: false,
                 item: 1,
@@ -75,7 +75,7 @@
                 smartSpeed: 800,
                 dots: false,
                 nav: true,
-                navText: ['<img src="/template/images/arrow_left.png">', '<img src="/template/images/arrow_right.png">'],
+                navText: ['<img src="/template/images/arrow_left.png" />', '<img src="/template/images/arrow_right.png" />'],
                 navClass: ['owl-prev', 'owl-next'],
                 responsive: {
                     0: {
@@ -98,14 +98,14 @@
                         slideBy: 1
                     }
                 }
-            })
+            });
             $('.categoryTop').owlCarousel({
                 loop: true,
                 margin: 15,
                 lazyLoad: true,
                 autoplay: false,
                 nav: true,
-                navText: ['<img src="/template/images/arrow_left.png">', '<img src="/template/images/arrow_right.png">'],
+                navText: ['<img src="/template/images/arrow_left.png" />', '<img src="/template/images/arrow_right.png" />'],
                 dots: false,
                 responsive: {
                     0: {
@@ -140,4 +140,4 @@
                 //  clearInterval(x);
                 //  'IT'S MY BIRTHDAY!;
                 //}
-            }, second)
+            }, second);

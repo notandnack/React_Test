@@ -803,7 +803,7 @@ export default function Home() {
           </section>
 
 
-
+          <script type="text/javascript" src="/template/script_font/index_sc.js"></script>
        </div>
    
   )
