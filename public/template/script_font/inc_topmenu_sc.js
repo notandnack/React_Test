@@ -19,21 +19,21 @@
                 // log
                 console.log('the side menu closed')
             }
-        })
+        });
 
         // dynamically bind 'closing' event
         zeynep.on('closing', function () {
             // log
             console.log('this event is dynamically binded')
-        })
+        });
 
         // handle zeynepjs overlay click
         $('.zeynep-overlay').on('click', function () {
             zeynep.close()
-        })
+        });
 
         // open zeynepjs side menu
         $('.btn-open').on('click', function () {
             zeynep.open()
-        })
-    })
+        });
+    });
