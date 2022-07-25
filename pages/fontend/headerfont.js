@@ -15,14 +15,14 @@ function _headerfont() {
         <link type="text/css" rel="stylesheet" href="/template/css/layout.css"/>
         <link type="image/ico" rel="shortcut icon" href="/template/images/favicon.ico" />
         
-        <script src="/template/js/jquery.min.js"></script>
-        <script src="/template/js/bootstrap.bundle.js"></script>
-        <script src="/template/js/jquery-ui.js"></script>
-        <script src="/template/js/modernizr.js"></script>
-        <script src="/template/js/owl.carousel.min.js"></script>
-        <script src="/template/js/jquery.fancybox.min.js"></script>
-        <script src="/template/js/jquery.fancybox.min.js"></script>
-        <script type="text/javascript" src="/template/script_font/headerfont_sc.js"></script>
+        <script src="/template/js/jquery.min.js" async></script>
+        <script src="/template/js/bootstrap.bundle.js" async></script>
+        <script src="/template/js/jquery-ui.js" async></script>
+        <script src="/template/js/modernizr.js" async></script>
+        <script src="/template/js/owl.carousel.min.js" async></script>
+        <script src="/template/js/jquery.fancybox.min.js" async></script>
+        <script src="/template/js/jquery.fancybox.min.js" async></script>
+        <script type="text/javascript" src="/template/script_font/headerfont_sc.js" async></script>
       </head>
     
     </Head>
