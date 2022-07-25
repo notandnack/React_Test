@@ -17,5 +17,26 @@
   "devDependencies": {
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6"
+  },
+  
+  "eslintConfig": {
+    "plugins": [
+      "react"
+    ],
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "plugin:react/recommended"
+    ],
+    "rules": {
+      "eqeqeq": "off",
+      "no-useless-escape": "off",
+      "jsx-a11y/alt-text": "off",
+      "react/prop-types": "off",
+      "react/display-name": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "react/no-unknown-property": "warn",
+      "react/jsx-key": "warn"
+    }
   }
 }
