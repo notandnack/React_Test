@@ -718,7 +718,7 @@ export default function Home() {
                 <div className="row mt-5">
                     <div className="col">
                         <div className="titleBold">
-                            Buyers' and Sellers' Guide
+                            Buyers&apos; and Sellers&apos; Guide
                         </div>
                     </div>
                 </div>
@@ -795,7 +795,7 @@ export default function Home() {
                 <div className="col-lg-6 offset-lg-6">
                     <div className="partnerbg">
                         Become our partner
-                        <h3>Here's How You Can Partner with Us! </h3>
+                        <h3>Here&apos;s How You Can Partner with Us! </h3>
                         <a href="#" className="btn btn-primary">Contact us</a>
                     </div>
                 </div>
