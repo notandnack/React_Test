@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import _headerfont from '../pages/fontend/headerfont'
 import _topmenufont from '../pages/fontend/inc_topmenu'
+import _footerfont from '../pages/fontend/footerfont'
 import Script from 'next/script'
 
 export default function Home() {
@@ -802,7 +803,7 @@ export default function Home() {
             </div>
         </div>
           </section>
-
+        <_footerfont />
 
           <Script type="text/javascript" src="/template/script_font/index_sc.js"></Script>
        </div>
