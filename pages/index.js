@@ -736,24 +736,28 @@ export default function Home() {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan magna lectus, sit
                                 amet pharetra massa fringilla
                             </div>
+                            <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                              {/* 02 */}
                              <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                             <div className="listpartner">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan magna lectus, sit
                                 amet pharetra massa fringilla
                             </div>
+                            <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                              {/* 03 */}
                              <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                             <div className="listpartner">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan magna lectus, sit
                                 amet pharetra massa fringilla
                             </div>
+                            <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                              {/* 04 */}
                              <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                             <div className="listpartner">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan magna lectus, sit
                                 amet pharetra massa fringilla
                             </div>
+                            <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                             
                         </div>
                     </div>
@@ -768,24 +772,28 @@ export default function Home() {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan magna lectus, sit
                                 amet pharetra massa fringilla
                             </div>
+                            <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                              {/* 02 */}
                              <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                             <div className="listpartner">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan magna lectus, sit
                                 amet pharetra massa fringilla
                             </div>
+                            <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                              {/* 03 */}
                              <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                             <div className="listpartner">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan magna lectus, sit
                                 amet pharetra massa fringilla
                             </div>
+                            <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                              {/* 04 */}
                              <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                             <div className="listpartner">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan magna lectus, sit
                                 amet pharetra massa fringilla
                             </div>
+                            <div className="iconlist"><i className="bi bi-check-circle-fill"></i></div>
                             
                         </div>
                     </div>
