@@ -638,7 +638,7 @@ export default function shopping_cart() {
 
                                         </div>
                                         <div className="col-12 col-md-4 col-lg-2 text-center mt-3 mt-md-0">
-                                            <Link href="/fontend/shopping_checkout" className="btn btn-primary">Check out</Link>
+                                            <Link href="/fontend/shopping_checkout" className="btn btn-primary"><a>Check out</a></Link>
                                         </div>
                                     </div>
                                 </div>
