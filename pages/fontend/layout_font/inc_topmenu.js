@@ -54,7 +54,7 @@ function _topmenufont() {
                 <div className="row">
                     <div className="col-md-4 text-center">
                         <div className="mainlogo">
-                            <a href="index.php"><svg width="264" height="108" viewBox="0 0 264 108" fill="none"
+                            <a href="/"><svg width="264" height="108" viewBox="0 0 264 108" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M0 58.84H5.151L7.52494 83.8184H7.61452L10.1676 58.84H15.9905L18.5212 83.8184H18.6108L21.0071 58.84H25.6206L22.1717 91.3248H15.4978L13.0791 69.4259H12.9895L10.5484 91.3248H3.44893L0 58.84Z"
@@ -219,7 +219,7 @@ function _topmenufont() {
                                         </svg>
                                         <br /> Log in / Sign up
                                     </a></li>
-                                <li className="cartTop"><a href="shopping_cart.php"><svg width="33" height="33" viewBox="0 0 33 33"
+                                <li className="cartTop"><a href="/fontend/shopping_cart"><svg width="33" height="33" viewBox="0 0 33 33"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clipPath="url(#clip0_103_55)">
                                                 <path
@@ -244,7 +244,7 @@ function _topmenufont() {
                         <div className="col text-center">
                             <div className="menu">
                                 <ul>
-                                    <li><a href="product.php">Shop </a></li>
+                                    <li><a href="/fontend/product">Shop </a></li>
                                     <li><a href="#">About</a></li>
                                     <li><a href="#">Blog </a></li>
                                     <li><a href="#">Contact</a></li>
@@ -410,7 +410,7 @@ function _topmenufont() {
                                             </svg>
 
                                         </a></li>
-                                    <li className="cartTop"><a href="shopping_cart.php"><svg width="33" height="33" viewBox="0 0 33 33"
+                                    <li className="cartTop"><a href="/fontend/shopping_cart"><svg width="33" height="33" viewBox="0 0 33 33"
                                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clipPath="url(#clip0_103_55)">
                                                     <path

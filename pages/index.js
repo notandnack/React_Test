@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import 'bootstrap/dist/css/bootstrap.css'
-import _headerfont from '../pages/fontend/headerfont'
-import _topmenufont from '../pages/fontend/inc_topmenu'
-import _footerfont from '../pages/fontend/footerfont'
+import _headerfont from '../pages/fontend/layout_font/headerfont'
+import _topmenufont from '../pages/fontend/layout_font/inc_topmenu'
+import _footerfont from '../pages/fontend/layout_font/footerfont'
 import Script from 'next/script'
 
 export default function Home() {
@@ -12,9 +12,10 @@ export default function Home() {
     
        <div>
         <_headerfont />
+        <_topmenufont />
 
           <section id="indexpage">
-          <_topmenufont />
+         
           <div className="container-fluid nopad">
             <div className="row mt-2">
                 <div className="col three-elems">
