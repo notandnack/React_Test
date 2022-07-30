@@ -6,6 +6,7 @@ import _headerfont from '../pages/fontend/layout_font/headerfont'
 import _topmenufont from '../pages/fontend/layout_font/inc_topmenu'
 import _footerfont from '../pages/fontend/layout_font/footerfont'
 import Script from 'next/script'
+import Link from 'next/link'
 
 export default function Home() {
   return (

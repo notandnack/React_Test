@@ -6,7 +6,7 @@ import _headerfont from '../fontend/layout_font/headerfont'
 import _topmenufont from '../fontend/layout_font/inc_topmenu'
 import _footerfont from '../fontend/layout_font/footerfont'
 import Script from 'next/script'
-
+import Link from 'next/link'
     
 
 export default function shopping_success() {

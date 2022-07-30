@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 import Script from 'next/script'
 function _footerfont() {
   return (
