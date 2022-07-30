@@ -6,6 +6,7 @@ import _headerfont from '../fontend/layout_font/headerfont'
 import _topmenufont from '../fontend/layout_font/inc_topmenu'
 import _footerfont from '../fontend/layout_font/footerfont'
 import Script from 'next/script'
+import Link from 'next/link'
 
     let loopdiv = [];
     for (let i = 1; i <= 6; i++) {
@@ -637,7 +638,7 @@ export default function shopping_cart() {
 
                                         </div>
                                         <div className="col-12 col-md-4 col-lg-2 text-center mt-3 mt-md-0">
-                                            <a href="/fontend/shopping_checkout" className="btn btn-primary">Check out</a>
+                                            <Link href="/fontend/shopping_checkout" className="btn btn-primary">Check out</Link>
                                         </div>
                                     </div>
                                 </div>

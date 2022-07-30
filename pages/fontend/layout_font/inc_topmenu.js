@@ -54,7 +54,7 @@ function _topmenufont() {
                 <div className="row">
                     <div className="col-md-4 text-center">
                         <div className="mainlogo">
-                            <a href="/"><svg width="264" height="108" viewBox="0 0 264 108" fill="none"
+                            <Link href="/"><svg width="264" height="108" viewBox="0 0 264 108" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M0 58.84H5.151L7.52494 83.8184H7.61452L10.1676 58.84H15.9905L18.5212 83.8184H18.6108L21.0071 58.84H25.6206L22.1717 91.3248H15.4978L13.0791 69.4259H12.9895L10.5484 91.3248H3.44893L0 58.84Z"
@@ -170,7 +170,7 @@ function _topmenufont() {
                                         d="M136.771 44.1693C137.33 44.3618 138.002 44.3832 138.562 44.1265C139.032 43.9127 139.324 43.485 139.704 43.1856C139.839 43.0786 139.816 42.8434 139.704 42.7365C139.57 42.6082 139.368 42.6295 139.234 42.7365C138.898 42.9931 138.652 43.3567 138.293 43.5491C137.89 43.763 137.353 43.6988 136.95 43.5491C136.771 43.485 136.591 43.6133 136.547 43.763C136.479 43.9555 136.591 44.1052 136.771 44.1693Z"
                                         fill="white" />
                                 </svg>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-md-4">
@@ -219,7 +219,7 @@ function _topmenufont() {
                                         </svg>
                                         <br /> Log in / Sign up
                                     </a></li>
-                                <li className="cartTop"><a href="/fontend/shopping_cart"><svg width="33" height="33" viewBox="0 0 33 33"
+                                <li className="cartTop"><Link href="/fontend/shopping_cart"><svg width="33" height="33" viewBox="0 0 33 33"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clipPath="url(#clip0_103_55)">
                                                 <path
@@ -232,7 +232,7 @@ function _topmenufont() {
                                                 </clipPath>
                                             </defs>
                                         </svg>
-                                        <br /> Bag <span className="numbercart">0</span></a></li>
+                                        <br /> Bag <span className="numbercart">0</span></Link></li>
                             </ul>
                         </div>
 
@@ -244,7 +244,7 @@ function _topmenufont() {
                         <div className="col text-center">
                             <div className="menu">
                                 <ul>
-                                    <li><a href="/fontend/product">Shop </a></li>
+                                    <li><Link href="/fontend/product">Shop </Link></li>
                                     <li><a href="#">About</a></li>
                                     <li><a href="#">Blog </a></li>
                                     <li><a href="#">Contact</a></li>
@@ -269,7 +269,7 @@ function _topmenufont() {
                         </div>
                         <div className="col-6">
                             <div className="mainlogo">
-                                <a href="index.php"><svg width="264" height="108" viewBox="0 0 264 108" fill="none"
+                                <Link href="/"><svg width="264" height="108" viewBox="0 0 264 108" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M0 58.84H5.151L7.52494 83.8184H7.61452L10.1676 58.84H15.9905L18.5212 83.8184H18.6108L21.0071 58.84H25.6206L22.1717 91.3248H15.4978L13.0791 69.4259H12.9895L10.5484 91.3248H3.44893L0 58.84Z"
@@ -385,7 +385,7 @@ function _topmenufont() {
                                             d="M136.771 44.1693C137.33 44.3618 138.002 44.3832 138.562 44.1265C139.032 43.9127 139.324 43.485 139.704 43.1856C139.839 43.0786 139.816 42.8434 139.704 42.7365C139.57 42.6082 139.368 42.6295 139.234 42.7365C138.898 42.9931 138.652 43.3567 138.293 43.5491C137.89 43.763 137.353 43.6988 136.95 43.5491C136.771 43.485 136.591 43.6133 136.547 43.763C136.479 43.9555 136.591 44.1052 136.771 44.1693Z"
                                             fill="white" />
                                     </svg>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-3 text-end">
@@ -410,7 +410,7 @@ function _topmenufont() {
                                             </svg>
 
                                         </a></li>
-                                    <li className="cartTop"><a href="/fontend/shopping_cart"><svg width="33" height="33" viewBox="0 0 33 33"
+                                    <li className="cartTop"><Link href="/fontend/shopping_cart"><svg width="33" height="33" viewBox="0 0 33 33"
                                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clipPath="url(#clip0_103_55)">
                                                     <path
@@ -423,7 +423,7 @@ function _topmenufont() {
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            <span className="numbercart">0</span></a></li>
+                                            <span className="numbercart">0</span></Link></li>
                                 </ul>
                             </div>
                         </div>
