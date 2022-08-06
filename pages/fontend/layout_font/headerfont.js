@@ -23,6 +23,7 @@ function _headerfont() {
         <script src="/template/js/jquery.fancybox.min.js" async></script>
         <script src="/template/js/jquery.fancybox.min.js" async></script>
         <script type="text/javascript" src="/template/script_font/headerfont_sc.js" async></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11" async></script>
       </head>
     
     </Head>

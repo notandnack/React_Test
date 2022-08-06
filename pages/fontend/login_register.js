@@ -8,9 +8,60 @@ import _footerfont from '../fontend/layout_font/footerfont'
 import _incsideproduct from '../fontend/inc_sideproduct'
 import Script from 'next/script'
 import Link from 'next/link'
+import axios from '../../public/template/script_font/axios.config';
 
 export default function login_register() {
 
+    function send_regis(){
+        var error_id=0;
+        if($("#email_regis").val() == null || $("#email_regis").val() == ""){
+            error_id = 1;
+            Swal.fire({
+                icon: 'error',
+                text: 'กรุณาระบุ Email หรือเบอร์โทรศัพท์',
+            });
+        }
+
+        if($("#pass_regis").val() == null || $("#pass_regis").val() == ""){
+            error_id = 1;
+            Swal.fire({
+                icon: 'error',
+                text: 'กรุณาระบุ Password หรือเบอร์โทรศัพท์',
+            });
+        }
+
+        if(error_id == 0){
+            const data2 = JSON.stringify({
+                email: $("#email_regis").val(),
+                password: $("#pass_regis").val(),
+                role:$("#role").val(),
+              });
+    
+            const res = axios.post('accounts/register', data2).then(function (response) {
+                if(response.data.status == "success"){
+                    Swal.fire({
+                        icon: 'success',
+                        text: "ลงทะเบียนเรียบร้อย",
+                        timer: 2300,
+                        showConfirmButton: false,
+                    }).then(() => {
+                        window.location.reload();
+                    });
+                }else{
+                    Swal.fire({
+                        icon: 'error',
+                        text: response.data.message,
+                    });
+                }
+              }).catch(function (error) {
+                Swal.fire({
+                    icon: 'error',
+                    text: error,
+                });
+              });
+        }
+        
+    }
   return (
     
        <div>
@@ -44,17 +95,18 @@ export default function login_register() {
                                                 <span className="input-group-text" id="basic-addon1">
                                                 <i className="fi fi-rr-user"></i>
                                                 </span>
-                                                <input type="text" className="form-control"
+                                                <input type="text" id="email_login" className="form-control"
                                                     placeholder="หมายเลขโทรศัพท์หรืออีเมลของคุณ" aria-label="Username"
                                                     aria-describedby="basic-addon1" />
                                             </div>
                                             <div className="input-group mb-3" id="show_hide_password">
                                                 <span className="input-group-text"><i className="fi fi-rr-lock"></i>
                                                 </span>
-                                                <input type="password" className="form-control showPassStyForm"
+                                                <input type="password" id="password_login" className="form-control showPassStyForm"
                                                     placeholder="รหัสผ่าน" autoComplete="off" defaultValue="" />
                                                 <span className="input-group-text showPassSty"> <a href=""><i className="fi fi-rr-eye"></i></a></span>
                                             </div>
+                                           
 
                                             <div className="row">
                                                 <div className="col-7 col-md-6 ">
@@ -66,12 +118,14 @@ export default function login_register() {
                                                     </label>
                                                 </div>
                                                 <div className="col-5 col-md-6 text-end">
-                                                    <a href="forgetpassword.php"
-                                                        className="linkud">ลืมรหัสผ่าน?</a>
+                                                    <Link href="/fontend/forgetpassword">
+                                                    <a className="linkud">ลืมรหัสผ่าน?</a>
+                                                    </Link>
                                                 </div>
                                             </div>
                                             <br />
-                                            <a href="member_profile.php" className="btn btn-primary">ลงชื่อเข้าใช้</a>
+                                            <Link href="/fontend/member_profile"><a className="btn btn-primary">ลงชื่อเข้าใช้</a></Link>
+                                            
                                             <br /><br />
                                             <a className="btn btn-signup btn_join_us">สร้างบัญชี</a>
                                         </div>
@@ -108,18 +162,19 @@ export default function login_register() {
                                                 <span className="input-group-text" id="basic-addon1">
                                                 <i className="fi fi-rr-user"></i>
                                                 </span>
-                                                <input type="text" className="form-control"
+                                                <input type="text" className="form-control" id="email_regis"
                                                     placeholder="หมายเลขโทรศัพท์หรืออีเมลของคุณ" aria-label="Username"
                                                     aria-describedby="basic-addon1" />
                                             </div>
                                             <div className="input-group mb-3" id="show_hide_password">
                                                 <span className="input-group-text"><i className="fi fi-rr-lock"></i>
                                                 </span>
-                                                <input type="password" className="form-control showPassStyForm"
+                                                <input type="password" className="form-control showPassStyForm" id="pass_regis"
                                                     placeholder="รหัสผ่าน" autoComplete="off" defaultValue="" />
                                                 <span className="input-group-text showPassSty"> <a href=""><i className="fi fi-rr-eye"></i></a></span>
                                             </div>
-                                            <button className="btn btn-primary">สร้างบัญชี</button>
+                                            <input name="role" id="role" defaultValue="User" hidden />
+                                            <button onClick={send_regis} className="btn btn-primary">สร้างบัญชี</button>
                                             <div className="alreadyACC text-center mt-4 mb-4">
                                                 มีบัญชีอยู่แล้วใช่ไหม <a href="#" className="morecode btn_login">ลงชื่อเข้าใช้
                                                 </a>
