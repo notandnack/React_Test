@@ -19,49 +19,49 @@ export default function seller_shop() {
         <_topmenufont />
 
         <section id="memberpage">
-        <div class="container-fluid nopad">
-            <div class="wrapper_pad">
-                <div class="row">
-                    <div class="col-lg-3 d-none d-sm-none d-md-none d-lg-block d-xl-block">
-                        <div class="boxwhiteShadow">
+        <div className="container-fluid nopad">
+            <div className="wrapper_pad">
+                <div className="row">
+                    <div className="col-lg-3 d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                        <div className="boxwhiteShadow">
                             <_sidememberseller />
                         </div>
                     </div>
-                    <div class="col-lg-9">
-                    <div class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
-                            <a href="member_m_seller.php" class="whitelink">
-                                <span><i class="fi fi-rr-angle-left"></i></span>
+                    <div className="col-lg-9">
+                    <div className="d-block d-sm-block d-md-block d-lg-none d-xl-none">
+                            <a href="member_m_seller.php" className="whitelink">
+                                <span><i className="fi fi-rr-angle-left"></i></span>
                                 กลับ</a>
                         </div>
-                        <div class="boxwhiteShadow">
-                            <div class="titlemember">
+                        <div className="boxwhiteShadow">
+                            <div className="titlemember">
                                 <h1>รายละเอียดร้านค้า</h1>
                                 <h2>จัดการข้อมูลร้านค้าของคุณ</h2>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-7 swap_product2">
-                                    <div class="formprofile mt-3 mt-lg-5 mb-5">
+                            <div className="row">
+                                <div className="col-lg-7 swap_product2">
+                                    <div className="formprofile mt-3 mt-lg-5 mb-5">
                                         <label for="name">ชื่อร้าน</label>
-                                        <input type="type" class="form-control" />
+                                        <input type="type" className="form-control" />
                                         <label for="name">รายละเอียดร้านค้า</label>
-                                        <input type="type" class="form-control" />
+                                        <input type="type" className="form-control" />
                                      
                                         
 
                                     </div>
-                                    <a href="#" class="btn btn-primary">บันทึกข้อมูล</a>
+                                    <a href="#" className="btn btn-primary">บันทึกข้อมูล</a>
                                 </div>
-                                <div class="col-lg-5 swap_product mt-3 mt-lg-0">
-                                    <div class="profileupload">
-                                    <div class="img_member">
-                                            <div class="preview_seller img-wrapper"></div>
-                                            <div class="file-upload-wrapper mt-5">
-                                                <input type="file" name="file" class="file-upload-native" accept="image/*" />
-                                                <input type="text" disabled class="file-upload-text" /> อัพโหลดรูปภาพร้านค้า
+                                <div className="col-lg-5 swap_product mt-3 mt-lg-0">
+                                    <div className="profileupload">
+                                    <div className="img_member">
+                                            <div className="preview_seller img-wrapper"></div>
+                                            <div className="file-upload-wrapper mt-5">
+                                                <input type="file" name="file" className="file-upload-native" accept="image/*" />
+                                                <input type="text" disabled className="file-upload-text" /> อัพโหลดรูปภาพร้านค้า
                                             </div>
                                         </div>
                                         <br />
-                                        <center class="smtxt2">
+                                        <center className="smtxt2">
                                             ขนาดไฟล์: สูงสุด 1 MB <br />
                                             ไฟล์ที่รองรับ: .JPEG, .PNG
                                         </center>
