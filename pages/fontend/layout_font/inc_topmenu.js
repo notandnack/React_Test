@@ -16,7 +16,10 @@ function _topmenufont() {
                         <div className="d-none d-sm-none d-md-noen d-lg-blok d-xl-block">
                             <div className="topmenu">
                                 <ul>
-                                    <li><a href="/fontend/seller_shop">Seller Center</a></li>
+                                    <li><Link href="/fontend/seller_shop">
+                                        <a>Seller Center</a>
+                                    </Link>
+                                        </li>
                                     <li><a href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <g clipPath="url(#clip0_103_130)">
@@ -206,8 +209,9 @@ function _topmenufont() {
                     <div className="col-md-4 text-center">
                         <div className="acctCart">
                             <ul>
-                                <li><a href="/fontend/login_register">
-                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                <li><Link href="/fontend/login_register">
+                                    <a>
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <g clipPath="url(#clip0_103_59)">
                                                 <path
@@ -224,7 +228,9 @@ function _topmenufont() {
                                             </defs>
                                         </svg>
                                         <br /> Log in / Sign up
-                                    </a></li>
+                                    </a>
+
+                                    </Link></li>
                                 <li className="cartTop"><Link href="/fontend/shopping_cart"><a>
                                 <svg width="33" height="33" viewBox="0 0 33 33"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -401,8 +407,9 @@ function _topmenufont() {
                         <div className="col-3 text-end">
                             <div className="acctCart">
                                 <ul>
-                                    <li><a href="/fontend/login_register">
-                                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    <li><Link href="/fontend/login_register">
+                                        <a>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <g clipPath="url(#clip0_103_59)">
                                                     <path
@@ -418,8 +425,10 @@ function _topmenufont() {
                                                     </clipPath>
                                                 </defs>
                                             </svg>
+                                        </a>
+                                            
 
-                                        </a></li>
+                                        </Link></li>
                                     <li className="cartTop"><Link href="/fontend/shopping_cart">
                                         <a>
                                         <svg width="33" height="33" viewBox="0 0 33 33"
@@ -478,17 +487,26 @@ function _topmenufont() {
 
         <ul>
             <li>
-                <a href="product.php">Shop</a>
+                <Link href="/fontend/product">
+                <a>Shop</a>
+                </Link>
+                
             </li>
             <li>
-                <a href="product.php">About</a>
+            <Link href="/fontend/about">
+                <a>About</a>
+                </Link>
             </li>
           
     <li>
-                <a href="#">Blog</a>
+    <Link href="/fontend/blog">
+                <a>Blog</a>
+                </Link>
             </li>
             <li>
-                <a href="#">Contact us</a>
+            <Link href="/fontend/contact">
+                <a>Contact us</a>
+                </Link>
             </li>
         </ul>
        

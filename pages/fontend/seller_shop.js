@@ -41,9 +41,9 @@ export default function seller_shop() {
                             <div className="row">
                                 <div className="col-lg-7 swap_product2">
                                     <div className="formprofile mt-3 mt-lg-5 mb-5">
-                                        <label for="name">ชื่อร้าน</label>
+                                        <label htmlFor="name">ชื่อร้าน</label>
                                         <input type="type" className="form-control" />
-                                        <label for="name">รายละเอียดร้านค้า</label>
+                                        <label htmlFor="name">รายละเอียดร้านค้า</label>
                                         <input type="type" className="form-control" />
                                      
                                         
