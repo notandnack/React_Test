@@ -178,6 +178,8 @@ ul {
 #mainmenu {
   .menu {
     padding: 10px 0px;
+    border-top: 1px solid $border;
+    border-bottom: 1px solid $border;
   }
 
   .topbar {
@@ -319,6 +321,214 @@ ul {
   }
 }
 
+#product_detail_page {
+  .gallery {
+    display: none;
+    width: 100%;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .reviewgroupBox {
+    border-bottom: 1px solid $border;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    .reviewpic_user ul li {
+      list-style: none;
+      display: inline-block;
+      width: 10%;
+      margin-right: 5px;
+
+      img {
+        border-radius: 10px;
+      }
+    }
+    .rating {
+      color: $maingreen;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+    .namepost {
+      color: $black-color;
+      font-weight: 600;
+      font-size: 0.8rem;
+      padding-top: 10px;
+    }
+    .likebtn {
+      cursor: pointer;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      padding: 5px;
+      text-align: center;
+      width: 40%;
+      margin: 40px auto;
+      font-size: 0.8em;
+    }
+
+    .liked {
+      display: inline-block;
+    }
+  }
+
+  .title {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .rateGroupTOP {
+    text-align: center;
+    .rateamount {
+      display: inline-block;
+      width: 18%;
+      font-size: 4em;
+      color: $maingreen;
+      font-weight: 500;
+    }
+
+    .ratestarAMT {
+      width: 50%;
+      display: inline-block;
+      text-align: left;
+      margin-left: 15px;
+    }
+    .ratestarAMT {
+      .rating {
+        color: $maingreen;
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+    }
+  }
+  .boxreviewpic {
+    width: 70%;
+  }
+  .reviewhisto {
+    float: right;
+    padding: 0px;
+    width: 20%;
+    font-size: 0.8em;
+    color: $defaulttext;
+  }
+  .histo-star {
+    float: left;
+    padding: 0px;
+    width: 14%;
+    font-size: 0.8em;
+  }
+
+  .histo-rate {
+    width: 100%;
+    display: block;
+    clear: both;
+    padding-bottom: 30px;
+  }
+  .bar-block {
+    margin-left: 5px;
+    color: black;
+    display: block;
+    float: left;
+    width: 62%;
+    position: relative;
+    background-color: $border;
+    margin-top: 6px;
+  }
+
+  .bar {
+    padding: 2px;
+    display: block;
+  }
+
+  #bar-five,
+  #bar-four,
+  #bar-three,
+  #bar-two,
+  #bar-one {
+    width: 0;
+    height: 6px;
+    border-radius: 50px;
+    background-color: $lightgreen;
+  }
+  #thumbs {
+    .item {
+      border: 1px solid $border;
+    }
+  }
+  .slide_product {
+    border: 1px solid $border;
+  }
+  .productdetail_content {
+    .price {
+      font-size: 1.3rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    .rating {
+      color: $maingreen;
+      font-size: 0.9rem;
+      font-weight: 700;
+      i {
+        font-size: 1rem;
+      }
+    }
+    .soldnumber {
+      color: $maingreen;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+  }
+
+  .namedetail {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: $black-color;
+    padding-bottom: 10px;
+  }
+  #qty-minus,
+  #qty-plus {
+    border-radius: 0px;
+  }
+
+  .qtyCart .form-control {
+    font-size: 0.85em;
+    border-color: $defaulttext;
+  }
+
+  .qty_group_cart {
+    .form-control {
+      font-size: 0.85em;
+      border: none;
+      text-align: center;
+    }
+
+    #qty-plus,
+    #qty-minus {
+      font-size: 0.7em;
+      background-color: transparent;
+      height: 32px;
+      color: $main-content;
+    }
+
+    .input-group {
+      width: 100%;
+      border: 2px solid $border;
+      @include border-radius(5px);
+    }
+  }
+  .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+
+  .owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+}
+
 .middleline {
   border-bottom: 1px solid $border;
   opacity: 1;
@@ -331,7 +541,7 @@ ul {
 
 .titleBold {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: $black-color;
 }
 
@@ -365,6 +575,46 @@ ul {
     -webkit-transform: scale(1.02);
     transform: scale(1.02);
     @include border-radius(5px);
+  }
+}
+#contactpage {
+  .hashtagselect {
+    .check-container {
+      margin-bottom: 10px !important;
+      margin-right: 10px !important;
+      display: inline-block !important;
+    }
+    h6 {
+      color: $black-color;
+      font-size: 1rem;
+    }
+  }
+  .bgheadgreen {
+    background-color: $maingreen;
+    padding: 6rem 0rem 8rem 0rem;
+  }
+
+  .boxwhiteShadow {
+    margin-top: -50px;
+  }
+  .contactinfo {
+    li {
+      list-style: none;
+      display: inline-block;
+      margin-right: 5px;
+      background-color: $btngrrenone;
+      border-radius: 50px;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 35px;
+      a {
+        text-decoration: none;
+        i {
+          color: $white-color;
+        }
+      }
+    }
   }
 }
 
@@ -474,46 +724,46 @@ ul {
     }
   }
 }
+.partnerlist {
+  background-color: $white-color;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+  padding: 10px;
+  @include border-radius(10px);
+
+  h5 {
+    color: $black-color;
+    padding: 10px 0px;
+    font-weight: 700;
+  }
+
+  .iconlist {
+    color: $maingreen;
+    font-size: 2rem;
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    text-align: center;
+  }
+
+  .listpartner {
+    display: inline-block;
+    width: 70%;
+    font-size: 0.8rem;
+  }
+}
+
+.partnerbg {
+  background-image: url(../images/bgPartner.png);
+  padding: 3em 5em;
+  color: $white-color;
+  @include border-radius(60px 0px 0px 60px);
+  background-position: center;
+  background-size: cover;
+}
 
 // Home
 
 #indexpage {
-  .partnerlist {
-    background-color: $white-color;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
-    padding: 10px;
-    @include border-radius(10px);
-    h5 {
-      color: $black-color;
-      padding: 10px 0px;
-      font-weight: 700;
-    }
-
-    .iconlist {
-      color: $maingreen;
-      font-size: 2rem;
-      display: inline-block;
-      width: 15%;
-      vertical-align: top;
-      text-align: center;
-    }
-
-    .listpartner {
-      display: inline-block;
-      width: 70%;
-      font-size: 0.8rem;
-    }
-  }
-
-  .partnerbg {
-    background-image: url(../images/bgPartner.png);
-    padding: 3em 5em;
-    color: $white-color;
-    @include border-radius(60px 0px 0px 60px);
-    background-position: center;
-    background-size: cover;
-  }
-
   .categoryTop {
     .owl-prev {
       position: absolute;
@@ -909,17 +1159,159 @@ ul {
 }
 
 // member
-
+.boxofreview {
+  .writecommentBox {
+    .btnBordergreen {
+      border: 1px solid $btngrrenone;
+      background-color: $white-color;
+      font-size: 0.75rem;
+      padding: 5px 10px;
+      color: $btngrrenone;
+      font-weight: 500;
+    }
+    .form-control {
+      font-size: 0.85rem;
+    }
+    label {
+      color: $black-color;
+      font-weight: 500;
+      font-weight: 0.8rem;
+      padding: 5px 0px;
+    }
+  }
+}
+.reviewadd {
+  color: $main-content;
+  text-decoration: none;
+  border-bottom: 1px solid $border;
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  display: block;
+  &:hover {
+    color: $main-content;
+    text-decoration: none;
+  }
+}
 #memberpage {
+  .reviewgroupBox {
+    border-bottom: 1px solid $border;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    .reviewpic_user ul li {
+      list-style: none;
+      display: inline-block;
+      width: 10%;
+      margin-right: 5px;
+
+      img {
+        border-radius: 10px;
+      }
+    }
+    .rating {
+      color: $maingreen;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+    .namepost {
+      color: $black-color;
+      font-weight: 600;
+      font-size: 0.8rem;
+      padding-top: 10px;
+    }
+  }
+  .rateGroupTOP {
+    .rateamount {
+      display: inline-block;
+      width: 20%;
+      font-size: 3.5em;
+      color: $maingreen;
+      font-weight: 500;
+    }
+
+    .ratestarAMT {
+      width: 50%;
+      display: inline-block;
+      text-align: left;
+      margin-left: 15px;
+    }
+    .ratestarAMT {
+      .rating {
+        color: $maingreen;
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+    }
+  }
   background: linear-gradient(to top, $searchbg 50%, transparent 30%),
     linear-gradient(to top, $maingreen 0%, $maingreen 100%);
   padding: 3% 0%;
+
+  .redeempic {
+    @include border-radius(50%);
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/brands_big.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .coinstatusec {
+    color: $saletext;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  .coinstatusone {
+    color: $maingreen;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  .yourcoin {
+    @include border-radius(50px);
+    padding: 5px;
+    border: 3px solid $btngrrenone;
+    text-align: center;
+
+    h2 {
+      color: $btngrrenone;
+      font-size: 2.5rem;
+      font-weight: 700;
+
+      span {
+        font-size: 0.9rem;
+        color: $black-color;
+      }
+    }
+  }
+
+  .coinsty {
+    .style_slide {
+      li {
+        width: 33%;
+        text-align: center;
+      }
+    }
+  }
+
   .profileupload {
     border: 1px solid $border;
     padding: 10px;
     @include border-radius(5px);
+
     .img_member {
       position: relative;
+    }
+
+    .preview_seller {
+      width: 200px;
+      height: 200px;
+      background-image: url(../images/logo_brand2.png);
+      background-size: cover;
+      background-position: center;
+      @include border-radius(50%);
+      margin: 0 auto;
     }
 
     .preview {
@@ -944,6 +1336,7 @@ ul {
       display: inline-block;
       margin: 0 auto;
       display: table;
+
       &:hover {
         background-color: $main-content;
         color: $black-color;
@@ -996,6 +1389,7 @@ ul {
       opacity: 0;
     }
   }
+
   .step {
     position: relative;
 
@@ -1248,6 +1642,16 @@ ul {
   }
 
   #membermenu {
+    .picprofile_seller {
+      width: 200px;
+      height: 200px;
+      background-image: url(../images/logo_brand2.png);
+      background-size: cover;
+      background-position: center;
+      @include border-radius(50%);
+      margin: 0 auto;
+    }
+
     .picprofile {
       width: 200px;
       height: 200px;
@@ -1409,10 +1813,362 @@ ul {
     width: 50%;
   }
 }
+.selectBox {
+  .form-select {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+}
+.writecommentBox {
+  background-color: $graybg;
+  padding: 20px;
+  border-radius: 5px;
+}
+// blog
+#blogpage {
+  .gallery {
+    display: none;
+    width: 100%;
+  }
+
+  .listcount {
+    li {
+      list-style: none;
+      display: inline-block;
+      font-size: 0.85rem;
+      padding-right: 5px;
+      i {
+        color: $lightgreen;
+        padding-right: 3px;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .groupreview {
+    border-bottom: 1px solid $border;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    .leftcontenReview {
+      display: inline-block;
+      width: 10%;
+      text-align: center;
+      vertical-align: top;
+    }
+
+    .rightnametxt {
+      display: inline-block;
+      width: 70%;
+    }
+
+    .picprofile {
+      width: 60px;
+      height: 60px;
+      background-image: url(../images/profile.png);
+      background-size: cover;
+      background-position: center;
+      @include border-radius(50%);
+      margin: 0 auto;
+    }
+  }
+
+  .blogdetailIS {
+    img {
+      width: 100%;
+    }
+    h1 {
+      font-size: 1.8rem;
+      color: $black-color;
+    }
+    .blog_share {
+      li {
+        list-style: none;
+        display: inline-block;
+        background-color: $graybg;
+        @include border-radius(8px);
+        margin-right: 8px;
+        padding: 5px 10px;
+        a {
+          text-decoration: none;
+          i {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+
+  .blogcat {
+    li {
+      padding: 0px;
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      width: 10%;
+      a {
+        text-decoration: none;
+        color: $black-color;
+        span {
+          @include border-radius(50%);
+          width: 60px;
+          height: 60px;
+          line-height: 65px;
+          text-align: center;
+          display: inline-block;
+          background-color: $lightgreen;
+          margin-bottom: 10px;
+          i {
+            font-size: 1.5rem;
+            color: $white-color;
+          }
+          &:hover {
+            background-color: $maingreen;
+          }
+        }
+      }
+    }
+  }
+  .trending_hashtag {
+    h3 {
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: $black-color;
+    }
+
+    li {
+      list-style: none;
+      display: inline-block;
+      background-color: $defaultbtn;
+      @include border-radius(50px);
+      padding: 5px 15px;
+      font-weight: 600;
+      font-size: 0.75rem;
+      margin-right: 5px;
+      margin-bottom: 10px;
+
+      &:hover {
+        background-color: $btngrrenone;
+
+        a {
+          color: $white-color;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: $main-content;
+      }
+    }
+  }
+
+  .blogslide {
+    .owl-prev {
+      position: absolute;
+      top: 30%;
+      left: -30px;
+    }
+
+    .owl-next {
+      position: absolute;
+      top: 30%;
+      right: -30px;
+    }
+  }
+  .bloggroup {
+    margin-bottom: 20px;
+    a {
+      color: $main-content;
+      text-decoration: none;
+    }
+    .blogcontent {
+      span {
+        font-size: 0.75rem;
+        color: $lightgreen;
+        padding-top: 10px;
+        text-transform: uppercase;
+        display: block;
+      }
+
+      .content {
+        font-size: 0.85rem;
+        color: $main-content;
+        @include contentline(3);
+      }
+    }
+    .timement {
+      font-size: 0.75rem;
+      li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 5px;
+        i {
+          color: $lightgreen;
+          vertical-align: text-top;
+          padding-right: 3px;
+        }
+      }
+    }
+    .likebtn {
+      .love {
+        font-size: 0.9rem;
+        color: $btngrrenone;
+      }
+      .wrapper {
+        .like-button {
+          position: relative;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background: $defaultbtn;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+          text-decoration: none;
+          overflow: hidden;
+          .like-overlay {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: $btngrrenone;
+            transform: scale(0);
+            transition: all 0.4s;
+            z-index: 0;
+          }
+          i {
+            &.not-liked {
+              display: block;
+              color: $white-color;
+              position: relative;
+              z-index: 1;
+            }
+            &.is-liked {
+              display: none;
+              color: $white-color;
+              position: relative;
+              z-index: 1;
+            }
+          }
+          &.is-active {
+            .like-overlay {
+              transform: scale(1);
+            }
+            i {
+              &.not-liked {
+                display: none;
+              }
+              &.is-liked {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+      //Watch me get bouncy
+      @-webkit-keyframes bouncy {
+        from,
+        to {
+          -webkit-transform: scale(1, 1);
+        }
+        25% {
+          -webkit-transform: scale(0.9, 1.1);
+        }
+        50% {
+          -webkit-transform: scale(1.1, 0.9);
+        }
+        75% {
+          -webkit-transform: scale(0.95, 1.05);
+        }
+      }
+      @keyframes bouncy {
+        from,
+        to {
+          transform: scale(1, 1);
+        }
+        25% {
+          transform: scale(0.9, 1.1);
+        }
+        50% {
+          transform: scale(1.1, 0.9);
+        }
+        75% {
+          transform: scale(0.95, 1.05);
+        }
+      }
+
+      //Settings
+      .bouncy {
+        -webkit-animation: bouncy 0.6s;
+        animation: bouncy 0.6s;
+        -webkit-animation-duration: 0.6s;
+        animation-duration: 0.6s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    }
+  }
+}
 
 // product
 
 #productpage {
+  .shopdetail {
+    padding-top: 20px;
+    h2 {
+      font-size: 1.2rem;
+      color: $black-color;
+      font-weight: 600;
+    }
+  }
+  .shopprofilebox {
+    background-color: $graybg;
+    padding: 20px;
+    @include border-radius(8px);
+    .shopnametitle {
+      display: inline-block;
+      width: 70%;
+      margin-left: 20px;
+      vertical-align: top;
+      padding-top: 20px;
+      text-transform: uppercase;
+      span {
+        font-size: 0.85rem;
+      }
+
+      h1 {
+        font-size: 1.2rem;
+        color: $black-color;
+        font-weight: 600;
+      }
+    }
+    .logoshop {
+      @include border-radius(10px);
+      display: inline-block;
+      padding: 20px;
+      text-align: center;
+      background-color: $white-color;
+      width: 20%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .owl-prev {
+    position: absolute;
+    top: 40%;
+    left: 0px;
+  }
+
+  .owl-next {
+    position: absolute;
+    top: 40%;
+    right: 0px;
+  }
   .bannertop {
     height: 350px;
     overflow: hidden;
@@ -1634,6 +2390,18 @@ ul {
     color: $main-content;
   }
 }
+.btn-success {
+  background-color: $lightgreen;
+  color: $white-color;
+  border: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.8em 2em;
+
+  &:hover {
+    background-color: $main-content;
+  }
+}
 
 .btn-primary {
   background-color: $btngrrenone;
@@ -1662,6 +2430,7 @@ ul {
     color: $white-color;
   }
 }
+
 .formprofile {
   label {
     padding: 10px 0px;
@@ -1678,6 +2447,7 @@ ul {
     border-color: $defaultbtn;
   }
 }
+
 .formGroupall {
   label {
     padding: 10px 0px;
@@ -2783,6 +3553,10 @@ ul {
   }
 
   #memberpage {
+    .redeempic {
+      margin: inherit;
+    }
+
     .couponcode_box {
       .code_detail {
         padding: 20px;
@@ -2839,7 +3613,20 @@ ul {
       }
     }
   }
+
   #productpage {
+    .shopprofilebox {
+      .shopnametitle {
+        width: 50%;
+
+        h1 {
+          font-size: 1.1rem;
+        }
+      }
+      .logoshop {
+        width: 40%;
+      }
+    }
     #productmenu {
       .modal-body {
         li {
@@ -2847,9 +3634,11 @@ ul {
           padding-bottom: 10px;
         }
       }
+
       .modal-footer {
         display: inline-block;
       }
+
       .btn-primary {
         padding: 10px 20px;
         width: 100%;
@@ -2860,9 +3649,11 @@ ul {
       width: 100%;
       padding: 10px;
     }
+
     .bannertop {
       height: auto;
     }
+
     .sorting_filter {
       .pagenumber {
         position: relative;
@@ -2871,6 +3662,7 @@ ul {
       }
     }
   }
+
   .swap_product {
     order: 1;
   }
@@ -2878,9 +3670,85 @@ ul {
   .swap_product2 {
     order: 2;
   }
+  .titleBold {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 767px) {
+  #blogpage {
+    .blogcat {
+      li {
+        width: 45%;
+      }
+    }
+    .groupreview {
+      .leftcontenReview {
+        width: 20%;
+      }
+    }
+  }
+  #productpage {
+    .shopprofilebox {
+      .shopnametitle {
+        width: 100%;
+        margin-left: 0px;
+
+        h1 {
+          font-size: 1rem;
+        }
+      }
+      .logoshop {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  #privacypage,
+  #contactpage {
+    .bgheadgreen {
+      padding: 2rem 0rem 2rem 0rem;
+    }
+    .boxwhiteShadow {
+      padding: 2rem 1rem;
+      margin-top: 20px;
+    }
+  }
+  #product_detail_page {
+    .reviewhisto {
+      width: 22%;
+    }
+    .bar-block {
+      width: 55%;
+    }
+    .histo-star {
+      width: 20%;
+      .check-container {
+        padding-left: 25px;
+        font-size: 0.75rem;
+      }
+    }
+    .rateGroupTOP {
+      .rateamount {
+        font-size: 2.2rem;
+      }
+    }
+  }
+  .reviewgroupBox {
+    .likebtn {
+      width: 25%;
+      margin: 0px;
+    }
+    .reviewpic_user {
+      ul li {
+        width: 30%;
+      }
+      .Cropscroll {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
   #indexpage {
     .categoryTop {
       .owl-prev {
@@ -2976,6 +3844,11 @@ ul {
   }
 
   #memberpage {
+    .rateGroupTOP {
+      .rateamount {
+        width: 30%;
+      }
+    }
     .status_order {
       margin-left: 0px;
       margin-bottom: 10px;

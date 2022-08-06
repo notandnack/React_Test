@@ -482,7 +482,7 @@ export default function shopping_checkout() {
                     </div>
                     <div className="row mt-4 mb-4">
                         <div className="col text-end">
-                            <Link href="/fontend/shopping_success" className="btn btn-primary"><a>ยืนยันสั่งซื้อ</a></Link>
+                            <Link href="/fontend/shopping_success"><a className="btn btn-primary">ยืนยันสั่งซื้อ</a></Link>
                         </div>
                     </div>
 

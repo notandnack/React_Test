@@ -135,6 +135,8 @@ ul {
 
 #mainmenu .menu {
   padding: 10px 0px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 #mainmenu .topbar {
@@ -259,6 +261,225 @@ ul {
   font-weight: 700;
 }
 
+#product_detail_page .gallery {
+  display: none;
+  width: 100%;
+}
+
+#product_detail_page .gallery img {
+  width: 100%;
+  height: auto;
+}
+
+#product_detail_page .reviewgroupBox {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+#product_detail_page .reviewgroupBox .reviewpic_user ul li {
+  list-style: none;
+  display: inline-block;
+  width: 10%;
+  margin-right: 5px;
+}
+
+#product_detail_page .reviewgroupBox .reviewpic_user ul li img {
+  border-radius: 10px;
+}
+
+#product_detail_page .reviewgroupBox .rating {
+  color: #2e6e65;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#product_detail_page .reviewgroupBox .namepost {
+  color: #000;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding-top: 10px;
+}
+
+#product_detail_page .reviewgroupBox .likebtn {
+  cursor: pointer;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 40%;
+  margin: 40px auto;
+  font-size: 0.8em;
+}
+
+#product_detail_page .reviewgroupBox .liked {
+  display: inline-block;
+}
+
+#product_detail_page .title {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+#product_detail_page .rateGroupTOP {
+  text-align: center;
+}
+
+#product_detail_page .rateGroupTOP .rateamount {
+  display: inline-block;
+  width: 18%;
+  font-size: 4em;
+  color: #2e6e65;
+  font-weight: 500;
+}
+
+#product_detail_page .rateGroupTOP .ratestarAMT {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+  margin-left: 15px;
+}
+
+#product_detail_page .rateGroupTOP .ratestarAMT .rating {
+  color: #2e6e65;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#product_detail_page .boxreviewpic {
+  width: 70%;
+}
+
+#product_detail_page .reviewhisto {
+  float: right;
+  padding: 0px;
+  width: 20%;
+  font-size: 0.8em;
+  color: #ababab;
+}
+
+#product_detail_page .histo-star {
+  float: left;
+  padding: 0px;
+  width: 14%;
+  font-size: 0.8em;
+}
+
+#product_detail_page .histo-rate {
+  width: 100%;
+  display: block;
+  clear: both;
+  padding-bottom: 30px;
+}
+
+#product_detail_page .bar-block {
+  margin-left: 5px;
+  color: black;
+  display: block;
+  float: left;
+  width: 62%;
+  position: relative;
+  background-color: #eee;
+  margin-top: 6px;
+}
+
+#product_detail_page .bar {
+  padding: 2px;
+  display: block;
+}
+
+#product_detail_page #bar-five,
+#product_detail_page #bar-four,
+#product_detail_page #bar-three,
+#product_detail_page #bar-two,
+#product_detail_page #bar-one {
+  width: 0;
+  height: 6px;
+  border-radius: 50px;
+  background-color: #88ce67;
+}
+
+#product_detail_page #thumbs .item {
+  border: 1px solid #eee;
+}
+
+#product_detail_page .slide_product {
+  border: 1px solid #eee;
+}
+
+#product_detail_page .productdetail_content .price {
+  font-size: 1.3rem;
+}
+
+#product_detail_page .productdetail_content h1 {
+  font-size: 1.5rem;
+}
+
+#product_detail_page .productdetail_content .rating {
+  color: #2e6e65;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+#product_detail_page .productdetail_content .rating i {
+  font-size: 1rem;
+}
+
+#product_detail_page .productdetail_content .soldnumber {
+  color: #2e6e65;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+#product_detail_page .namedetail {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+#product_detail_page #qty-minus,
+#product_detail_page #qty-plus {
+  border-radius: 0px;
+}
+
+#product_detail_page .qtyCart .form-control {
+  font-size: 0.85em;
+  border-color: #ababab;
+}
+
+#product_detail_page .qty_group_cart .form-control {
+  font-size: 0.85em;
+  border: none;
+  text-align: center;
+}
+
+#product_detail_page .qty_group_cart #qty-plus,
+#product_detail_page .qty_group_cart #qty-minus {
+  font-size: 0.7em;
+  background-color: transparent;
+  height: 32px;
+  color: #575757;
+}
+
+#product_detail_page .qty_group_cart .input-group {
+  width: 100%;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+#product_detail_page .owl-prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+#product_detail_page .owl-next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
 .middleline {
   border-bottom: 1px solid #eee;
   opacity: 1;
@@ -271,7 +492,7 @@ ul {
 
 .titleBold {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #000;
 }
 
@@ -304,6 +525,46 @@ ul {
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
   border-radius: 5px;
+}
+
+#contactpage .hashtagselect .check-container {
+  margin-bottom: 10px !important;
+  margin-right: 10px !important;
+  display: inline-block !important;
+}
+
+#contactpage .hashtagselect h6 {
+  color: #000;
+  font-size: 1rem;
+}
+
+#contactpage .bgheadgreen {
+  background-color: #2e6e65;
+  padding: 6rem 0rem 8rem 0rem;
+}
+
+#contactpage .boxwhiteShadow {
+  margin-top: -50px;
+}
+
+#contactpage .contactinfo li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #03bd75;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 35px;
+}
+
+#contactpage .contactinfo li a {
+  text-decoration: none;
+}
+
+#contactpage .contactinfo li a i {
+  color: #fff;
 }
 
 #footer {
@@ -422,7 +683,7 @@ ul {
   padding: 0px 5px;
 }
 
-#indexpage .partnerlist {
+.partnerlist {
   background-color: #fff;
   -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
@@ -430,13 +691,13 @@ ul {
   border-radius: 10px;
 }
 
-#indexpage .partnerlist h5 {
+.partnerlist h5 {
   color: #000;
   padding: 10px 0px;
   font-weight: 700;
 }
 
-#indexpage .partnerlist .iconlist {
+.partnerlist .iconlist {
   color: #2e6e65;
   font-size: 2rem;
   display: inline-block;
@@ -445,13 +706,13 @@ ul {
   text-align: center;
 }
 
-#indexpage .partnerlist .listpartner {
+.partnerlist .listpartner {
   display: inline-block;
   width: 70%;
   font-size: 0.8rem;
 }
 
-#indexpage .partnerbg {
+.partnerbg {
   background-image: url(../images/bgPartner.png);
   padding: 3em 5em;
   color: #fff;
@@ -824,11 +1085,141 @@ ul {
   color: #03bd75;
 }
 
+.boxofreview .writecommentBox .btnBordergreen {
+  border: 1px solid #03bd75;
+  background-color: #fff;
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  color: #03bd75;
+  font-weight: 500;
+}
+
+.boxofreview .writecommentBox .form-control {
+  font-size: 0.85rem;
+}
+
+.boxofreview .writecommentBox label {
+  color: #000;
+  font-weight: 500;
+  font-weight: 0.8rem;
+  padding: 5px 0px;
+}
+
+.reviewadd {
+  color: #575757;
+  text-decoration: none;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.reviewadd:hover {
+  color: #575757;
+  text-decoration: none;
+}
+
 #memberpage {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #ececec), color-stop(30%, transparent)), -webkit-gradient(linear, left bottom, left top, from(#2e6e65), to(#2e6e65));
   background: linear-gradient(to top, #ececec 50%, transparent 30%), linear-gradient(to top, #2e6e65 0%, #2e6e65 100%);
   padding: 3% 0%;
   /*Active/ Completed States*/
+}
+
+#memberpage .reviewgroupBox {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+#memberpage .reviewgroupBox .reviewpic_user ul li {
+  list-style: none;
+  display: inline-block;
+  width: 10%;
+  margin-right: 5px;
+}
+
+#memberpage .reviewgroupBox .reviewpic_user ul li img {
+  border-radius: 10px;
+}
+
+#memberpage .reviewgroupBox .rating {
+  color: #2e6e65;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#memberpage .reviewgroupBox .namepost {
+  color: #000;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding-top: 10px;
+}
+
+#memberpage .rateGroupTOP .rateamount {
+  display: inline-block;
+  width: 20%;
+  font-size: 3.5em;
+  color: #2e6e65;
+  font-weight: 500;
+}
+
+#memberpage .rateGroupTOP .ratestarAMT {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+  margin-left: 15px;
+}
+
+#memberpage .rateGroupTOP .ratestarAMT .rating {
+  color: #2e6e65;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#memberpage .redeempic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-image: url(../images/brands_big.png);
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+#memberpage .coinstatusec {
+  color: #e81818;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+#memberpage .coinstatusone {
+  color: #2e6e65;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+#memberpage .yourcoin {
+  border-radius: 50px;
+  padding: 5px;
+  border: 3px solid #03bd75;
+  text-align: center;
+}
+
+#memberpage .yourcoin h2 {
+  color: #03bd75;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#memberpage .yourcoin h2 span {
+  font-size: 0.9rem;
+  color: #000;
+}
+
+#memberpage .coinsty .style_slide li {
+  width: 33%;
+  text-align: center;
 }
 
 #memberpage .profileupload {
@@ -839,6 +1230,16 @@ ul {
 
 #memberpage .profileupload .img_member {
   position: relative;
+}
+
+#memberpage .profileupload .preview_seller {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/logo_brand2.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
 #memberpage .profileupload .preview {
@@ -1157,6 +1558,16 @@ ul {
   height: 18px;
 }
 
+#memberpage #membermenu .picprofile_seller {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/logo_brand2.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
 #memberpage #membermenu .picprofile {
   width: 200px;
   height: 200px;
@@ -1307,6 +1718,380 @@ ul {
 
 #memberpage .formGroupall {
   width: 50%;
+}
+
+.selectBox .form-select {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.writecommentBox {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#blogpage .gallery {
+  display: none;
+  width: 100%;
+}
+
+#blogpage .listcount li {
+  list-style: none;
+  display: inline-block;
+  font-size: 0.85rem;
+  padding-right: 5px;
+}
+
+#blogpage .listcount li i {
+  color: #88ce67;
+  padding-right: 3px;
+  vertical-align: middle;
+}
+
+#blogpage .groupreview {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#blogpage .groupreview .leftcontenReview {
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  vertical-align: top;
+}
+
+#blogpage .groupreview .rightnametxt {
+  display: inline-block;
+  width: 70%;
+}
+
+#blogpage .groupreview .picprofile {
+  width: 60px;
+  height: 60px;
+  background-image: url(../images/profile.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#blogpage .blogdetailIS img {
+  width: 100%;
+}
+
+#blogpage .blogdetailIS h1 {
+  font-size: 1.8rem;
+  color: #000;
+}
+
+#blogpage .blogdetailIS .blog_share li {
+  list-style: none;
+  display: inline-block;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  margin-right: 8px;
+  padding: 5px 10px;
+}
+
+#blogpage .blogdetailIS .blog_share li a {
+  text-decoration: none;
+}
+
+#blogpage .blogdetailIS .blog_share li a i {
+  font-size: 1.2rem;
+}
+
+#blogpage .blogcat li {
+  padding: 0px;
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 10%;
+}
+
+#blogpage .blogcat li a {
+  text-decoration: none;
+  color: #000;
+}
+
+#blogpage .blogcat li a span {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 65px;
+  text-align: center;
+  display: inline-block;
+  background-color: #88ce67;
+  margin-bottom: 10px;
+}
+
+#blogpage .blogcat li a span i {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#blogpage .blogcat li a span:hover {
+  background-color: #2e6e65;
+}
+
+#blogpage .trending_hashtag h3 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+#blogpage .trending_hashtag li {
+  list-style: none;
+  display: inline-block;
+  background-color: #e8e8e8;
+  border-radius: 50px;
+  padding: 5px 15px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+#blogpage .trending_hashtag li:hover {
+  background-color: #03bd75;
+}
+
+#blogpage .trending_hashtag li:hover a {
+  color: #fff;
+}
+
+#blogpage .trending_hashtag li a {
+  text-decoration: none;
+  color: #575757;
+}
+
+#blogpage .blogslide .owl-prev {
+  position: absolute;
+  top: 30%;
+  left: -30px;
+}
+
+#blogpage .blogslide .owl-next {
+  position: absolute;
+  top: 30%;
+  right: -30px;
+}
+
+#blogpage .bloggroup {
+  margin-bottom: 20px;
+}
+
+#blogpage .bloggroup a {
+  color: #575757;
+  text-decoration: none;
+}
+
+#blogpage .bloggroup .blogcontent span {
+  font-size: 0.75rem;
+  color: #88ce67;
+  padding-top: 10px;
+  text-transform: uppercase;
+  display: block;
+}
+
+#blogpage .bloggroup .blogcontent .content {
+  font-size: 0.85rem;
+  color: #575757;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#blogpage .bloggroup .timement {
+  font-size: 0.75rem;
+}
+
+#blogpage .bloggroup .timement li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#blogpage .bloggroup .timement li i {
+  color: #88ce67;
+  vertical-align: text-top;
+  padding-right: 3px;
+}
+
+#blogpage .bloggroup .likebtn .love {
+  font-size: 0.9rem;
+  color: #03bd75;
+}
+
+#blogpage .bloggroup .likebtn .wrapper .like-button {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #e8e8e8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#blogpage .bloggroup .likebtn .wrapper .like-button .like-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #03bd75;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: 0;
+}
+
+#blogpage .bloggroup .likebtn .wrapper .like-button i.not-liked {
+  display: block;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#blogpage .bloggroup .likebtn .wrapper .like-button i.is-liked {
+  display: none;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#blogpage .bloggroup .likebtn .wrapper .like-button.is-active .like-overlay {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#blogpage .bloggroup .likebtn .wrapper .like-button.is-active i.not-liked {
+  display: none;
+}
+
+#blogpage .bloggroup .likebtn .wrapper .like-button.is-active i.is-liked {
+  display: block;
+}
+
+@-webkit-keyframes bouncy {
+  from,
+  to {
+    -webkit-transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+  }
+}
+
+@keyframes bouncy {
+  from,
+  to {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+            transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+            transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+            transform: scale(0.95, 1.05);
+  }
+}
+
+#blogpage .bloggroup .likebtn .bouncy {
+  -webkit-animation: bouncy 0.6s;
+  animation: bouncy 0.6s;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+#productpage .shopdetail {
+  padding-top: 20px;
+}
+
+#productpage .shopdetail h2 {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 600;
+}
+
+#productpage .shopprofilebox {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#productpage .shopprofilebox .shopnametitle {
+  display: inline-block;
+  width: 70%;
+  margin-left: 20px;
+  vertical-align: top;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+#productpage .shopprofilebox .shopnametitle span {
+  font-size: 0.85rem;
+}
+
+#productpage .shopprofilebox .shopnametitle h1 {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 600;
+}
+
+#productpage .shopprofilebox .logoshop {
+  border-radius: 10px;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  width: 20%;
+}
+
+#productpage .shopprofilebox .logoshop img {
+  width: 100%;
+}
+
+#productpage .owl-prev {
+  position: absolute;
+  top: 40%;
+  left: 0px;
+}
+
+#productpage .owl-next {
+  position: absolute;
+  top: 40%;
+  right: 0px;
 }
 
 #productpage .bannertop {
@@ -1519,6 +2304,19 @@ ul {
 .titlepopup h4 {
   font-size: 0.9rem;
   color: #575757;
+}
+
+.btn-success {
+  background-color: #88ce67;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.8em 2em;
+}
+
+.btn-success:hover {
+  background-color: #575757;
 }
 
 .btn-primary {
@@ -2512,6 +3310,9 @@ ul {
   .wrapper_pad {
     width: 100%;
   }
+  #memberpage .redeempic {
+    margin: inherit;
+  }
   #memberpage .couponcode_box .code_detail {
     padding: 20px;
   }
@@ -2546,6 +3347,15 @@ ul {
   #indexpage .flashsalegroup .countdown_topmenu {
     left: 22%;
   }
+  #productpage .shopprofilebox .shopnametitle {
+    width: 50%;
+  }
+  #productpage .shopprofilebox .shopnametitle h1 {
+    font-size: 1.1rem;
+  }
+  #productpage .shopprofilebox .logoshop {
+    width: 40%;
+  }
   #productpage #productmenu .modal-body li {
     list-style: none;
     padding-bottom: 10px;
@@ -2579,9 +3389,64 @@ ul {
         -ms-flex-order: 2;
             order: 2;
   }
+  .titleBold {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 767px) {
+  #blogpage .blogcat li {
+    width: 45%;
+  }
+  #blogpage .groupreview .leftcontenReview {
+    width: 20%;
+  }
+  #productpage .shopprofilebox .shopnametitle {
+    width: 100%;
+    margin-left: 0px;
+  }
+  #productpage .shopprofilebox .shopnametitle h1 {
+    font-size: 1rem;
+  }
+  #productpage .shopprofilebox .logoshop img {
+    width: 100%;
+  }
+  #privacypage .bgheadgreen,
+  #contactpage .bgheadgreen {
+    padding: 2rem 0rem 2rem 0rem;
+  }
+  #privacypage .boxwhiteShadow,
+  #contactpage .boxwhiteShadow {
+    padding: 2rem 1rem;
+    margin-top: 20px;
+  }
+  #product_detail_page .reviewhisto {
+    width: 22%;
+  }
+  #product_detail_page .bar-block {
+    width: 55%;
+  }
+  #product_detail_page .histo-star {
+    width: 20%;
+  }
+  #product_detail_page .histo-star .check-container {
+    padding-left: 25px;
+    font-size: 0.75rem;
+  }
+  #product_detail_page .rateGroupTOP .rateamount {
+    font-size: 2.2rem;
+  }
+  .reviewgroupBox .likebtn {
+    width: 25%;
+    margin: 0px;
+  }
+  .reviewgroupBox .reviewpic_user ul li {
+    width: 30%;
+  }
+  .reviewgroupBox .reviewpic_user .Cropscroll {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
   #indexpage .categoryTop .owl-prev {
     left: 0;
   }
@@ -2634,6 +3499,9 @@ ul {
   }
   .borderbox {
     font-size: 0.85rem;
+  }
+  #memberpage .rateGroupTOP .rateamount {
+    width: 30%;
   }
   #memberpage .status_order {
     margin-left: 0px;

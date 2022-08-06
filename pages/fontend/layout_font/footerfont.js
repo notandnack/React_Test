@@ -63,7 +63,7 @@ function _footerfont() {
                                 </defs>
                             </svg> Subscribe to Newsletter</h3>
                         <p>By signing up you are confirming that you have read, <br />
-                            understood and accept our <a href="#">Privacy Policy</a> </p>
+                            understood and accept our <Link href="/fontend/privacy"><a>Privacy Policy</a></Link></p>
                         <div className="subcribeform">
                             <div className="input-group mt-3">
                                 <input type="text" className="form-control" placeholder="Enter your email"
@@ -95,7 +95,7 @@ function _footerfont() {
                                     <li><a data-width="550" data-height="400" data-fancybox data-src="#trackorder"
                                             href="#">Order Tracking</a></li>
                                     <li><a href="#">FAQ</a></li>
-                                    <li><a href="privacy.php">Privacy Policy</a></li>
+                                    <li><Link href="/fontend/privacy"><a>Privacy Policy</a></Link></li>
 
                                 </ul>
                             </div>
@@ -139,7 +139,7 @@ function _footerfont() {
                                         <ul>
                                             <li><a href="#">Order Tracking</a></li>
                                             <li><a href="#">FAQ</a></li>
-                                            <li><a href="privacy.php">Privacy Policy</a></li>
+                                            <li><Link href="/fontend/privacy"><a>Privacy Policy</a></Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@ function _footerfont() {
             <div className="row mt-4">
                 <div className="col-md-8 copyright">
                     ©2022 World Why Weed. All rights reserved.
-                    <li><a href="#">Privacy Policy</a> </li>
+                    <li><Link href="/fontend/privacy"><a>Privacy Policy</a></Link> </li>
                     <li><a href="#">Terms Of Use</a></li>
                     <li><a href="#">Legal Disclaimer</a></li>
 

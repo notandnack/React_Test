@@ -16,6 +16,7 @@ function _topmenufont() {
                         <div className="d-none d-sm-none d-md-noen d-lg-blok d-xl-block">
                             <div className="topmenu">
                                 <ul>
+                                    <li><a href="/fontend/seller_shop">Seller Center</a></li>
                                     <li><a href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <g clipPath="url(#clip0_103_130)">
@@ -205,7 +206,7 @@ function _topmenufont() {
                     <div className="col-md-4 text-center">
                         <div className="acctCart">
                             <ul>
-                                <li><a href="login_register.php">
+                                <li><a href="/fontend/login_register">
                                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <g clipPath="url(#clip0_103_59)">
@@ -252,9 +253,9 @@ function _topmenufont() {
                             <div className="menu">
                                 <ul>
                                     <li><Link href="/fontend/product"><a>Shop</a></Link></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Blog </a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><Link href="/fontend/about"><a>About</a></Link></li>
+                                    <li><Link href="/fontend/blog"><a>Blog </a></Link></li>
+                                    <li><Link href="/fontend/contact"><a>Contact</a></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -400,7 +401,7 @@ function _topmenufont() {
                         <div className="col-3 text-end">
                             <div className="acctCart">
                                 <ul>
-                                    <li><a href="login_register.php">
+                                    <li><a href="/fontend/login_register">
                                             <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <g clipPath="url(#clip0_103_59)">

@@ -8,7 +8,10 @@ import _footerfont from '../fontend/layout_font/footerfont'
 import _incsideproduct from '../fontend/inc_sideproduct'
 import Script from 'next/script'
 
-let productbox = [];
+
+
+export default function product() {
+    let productbox = [];
     for (let i = 1; i <= 23; i++) {
         productbox.push(
         <div className="col-6 col-md-3" key={i}>
@@ -40,9 +43,6 @@ let productbox = [];
         </div>
        );
     }
-    
-
-export default function product() {
     
 
   return (
