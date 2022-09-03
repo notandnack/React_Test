@@ -44,10 +44,7 @@ export default function seller_shop() {
                                         <label htmlFor="name">ชื่อร้าน</label>
                                         <input type="type" className="form-control" />
                                         <label htmlFor="name">รายละเอียดร้านค้า</label>
-                                        <input type="type" className="form-control" />
-                                     
-                                        
-
+                                        <input type="type" className="form-control" />                                     
                                     </div>
                                     <a href="#" className="btn btn-primary">บันทึกข้อมูล</a>
                                 </div>
@@ -78,6 +75,5 @@ export default function seller_shop() {
         <_footerfont />
         <Script type="text/javascript" src="/template/script_font/seller_shop_sc.js"></Script>
        </div>
-   
   )
 }

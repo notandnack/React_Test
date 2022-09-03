@@ -8,7 +8,7 @@ import _footerfont from '../fontend/layout_font/footerfont'
 import _incsideproduct from '../fontend/inc_sideproduct'
 import Script from 'next/script'
 import Link from 'next/link'
-import axios from '../../public/template/script_font/axios.config';
+// import axios from '../../public/template/script_font/axios.config';
 
 export default function login_register() {
 
